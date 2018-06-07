@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 30%;
+  margin: 10em auto 0 auto;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  font-size: 1.5em;
+  outline: 0;
+}
+
+.discover_content {
+  position: absolute;
+  color: #00a99d;
+  right: 25%;
+  top: 0;
+  opacity: 0;
+  width: 30%;
+  transform: translateY(-800px);
+}
+
+.discover_content #btn-back {
+  width: auto;
+  margin: 30px auto;
+  background: #00a99d;
+}
+
+.discover_content p {
+  font-size: 1.2em;
+}
+
+.hero-background {
+  fill: #00a99d;
+}
