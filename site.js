@@ -5,8 +5,8 @@ btnAnimate.onclick = function() {
   var morphing = anime({
     targets: '.hero-background',
     points: [
-      { value: '300,270 0,270 0,0 60,0 120,120' },
-      { value: '300,270 0,270 0,0 0,0 100,150' }
+      { value: '300,150 0,150 0,0 60,0 120,60' },
+      { value: '300,150 0,150 0,0 0,0 100,70' }
     ],
     easing: 'easeOutQuad',
     duration: 2000,
@@ -26,8 +26,8 @@ btnAnimate.onclick = function() {
       anime({
         targets: '.hero-background',
         points: [
-          { value: '300,270 0,270 0,0 60,0 100,120' },
-          { value: '300,270 0,270 0,0 60,0 300,0' }
+          { value: '300,150 0,150 0,0 60,0 100,60' },
+          { value: '300,150 0,150 0,0 60,0 300,0' }
         ],
         easing: 'easeOutQuad',
         duration: 1500,
